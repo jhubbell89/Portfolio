@@ -1,0 +1,72 @@
+* { 
+    margin: 0px; 
+    padding: 0; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    }
+    
+    body { 
+    font-family: 'Roboto', sans-serif; 
+    }
+    
+    h1,h2,h3,h4,h5,h6,a{
+      margin:0;
+    }
+    
+    body {
+      background-color: black;
+      color: red;
+    }
+    
+    .icon-bar {
+      position: fixed;
+      top: 5%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    
+    #mySidenav a {
+      position: absolute;
+      left: -180px;
+      transition: 0.5s;
+      padding: 15px;
+      width: 200px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      border-radius: 0 5px 5px 0;
+    }
+    #mySidenav a:hover {
+      left: 0;
+    }
+    
+    #abouts {
+      top: 20px;
+      background-image: radial-gradient( black , green 90%);
+    }
+    
+    #blogs {
+      top: 80px;
+      background-color: #2196F3;
+    }
+    
+    #project {
+      top: 140px;
+      background-color: #f44336;
+    }
+    
+    #contacts {
+      top: 200px;
+      background-color: #555
+    }
+    
+    #resumes {
+      top: 260px;
+      background-color: #e2ff7a;
+      background-image: radial-gradient( black 10%, yellow);
+    }
+    
+    .main-content{
+      text-align: center;
+    }
