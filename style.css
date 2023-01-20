@@ -1,0 +1,173 @@
+/*---------- Main/general page ----------*/
+.main-content {
+  text-align: center;
+}
+
+h1,h2,h3,h4 {
+  margin:100px 0 100px 0;
+}
+
+body {
+  background-color: #31323f;
+  color: red;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.txtsz30px {
+ font-size: 30px; 
+}
+
+.txtsz20px {
+ font-size: 20px; 
+}
+
+a:visited {
+  color:white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+/*---------- Side Navbar ----------*/
+/* NAV general style */
+.icon-bar {
+  position: fixed;
+  top: 5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#sidenavbar a {
+  position: absolute;
+  left: -180px;
+  transition: 0.5s;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#sidenavbar a:hover {
+  left: 0;
+}
+
+/* NAV dark mode button */
+#darkmodebtn {
+  top: 20px;
+  background-image: radial-gradient( black 10%, orange );
+}
+
+.dark-mode-body {
+  background-color:ghostwhite;
+  color: black;
+}
+
+/* NAV buttons */
+#abouts {
+  top: 80px;
+  background-image: radial-gradient( black 10%, green );
+}
+
+#project {
+  top: 140px;
+  background-image: radial-gradient( black 10%, red);
+}
+
+#contacts {
+  top: 200px;
+  background-image: radial-gradient( black 10%, blue);
+}
+
+#resumes {
+  top: 260px;
+  background-image: radial-gradient( black 10%, yellow);
+}
+
+/*---------- Body Main Sections ----------*/
+/* for all sections */
+.mainbody {
+  margin: 25px;
+  min-height: 700px;
+}
+
+.logobase {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.logobase:hover {
+    opacity: 0.8;
+}
+
+/* About Me */
+#selfport {
+  min-width: 100px;
+  max-width: 200px;
+  width:50% ;
+   margin-top: 100px;
+}
+
+/* Projects */
+#project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.project-card {
+  border: 3px solid orangered;
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 350px;
+  width: 60%;
+  margin:10px;
+}
+
+.project-card-top {
+  border: 1px solid orangered;
+  height: auto;
+  width: 100%;
+  text-wrap:center;
+}
+
+.project-card-bottom {
+  border: 1px solid orangered;
+  height: 150;
+  width: 100%;
+  text-wrap:center;
+}
+
+.projects-thumbnail {
+ width: 100%;
+}
+
+.projects-links {
+  text-wrap: center;
+  margin: auto;
+}
+
+/* Contact Me */
+#sendmemail {
+  margin-bottom: 100px;
+  padding: 15px;
+  width: 50%;
+  min-width: 125px;
+  max-width: 600px
+}
+
+.ghlogo {
+  background-color: white;
+}
+
+/* Resume */

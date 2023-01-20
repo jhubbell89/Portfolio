@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <title>James Hubbell's Portfolio</title>
+</head>
+<body>
+  <div id="sidenavbar" class="icon-bar" class="sidenav">
+    <a id="darkmodebtn" onclick="darkMode()">Dark/Light Mode</a>
+    <a href="#aboutme" id="abouts">About Me</a>
+    <a href="#projects" id="project">Projects</a>
+    <a href="#contact" id="contacts">Contact Me</a>
+    <a href="#resumepdf" id="resumes">Resume</a>
+  </div>
+  <div class="main-content">  
+    <div id="aboutme" class="mainbody">
+      <div>
+        <img src="./pics/selfport.png" id="selfport" ></img>
+      </div>
+      <p class="txtsz30px">Hi, I'm James Hubbell</p>
+      <p class="txtsz20px">Software Engineer, Father, Army Veteran, Avid Explorer Of New Places </p>
+      <p>Once a master mechanic, now a software engineer; I am always motivated by my passion to learn and build and to be a role model for my son. I am excited by games and anything that gets me outside in nature or allows me to find the best solution to a new challenge. I am drawn to the technology field because there is always a new challenge to solve and a better way to solve it! I am committed to growing along side an ever changing field and demonstrating the values I live by: dedication, perseverance, and commitment.
+ I am an experienced leader and a compassionate team player, always looking forward to the future. I hope to join a dev team where I can troubleshoot and iterate beside committed peers looking to build technology we are excited to improve!</p>
+      <p>Skills: Python · Embedded JavaScript (EJS) · PostgreSQL · Mongoose · API's · MongoDB · Node.js · Express.js · JavaScript · Cascading Style Sheets (CSS) · HTML5 · React.js · Resume Writing · Organization Skills · Career Development</p>
+    </div>
+    <div id="projects" class="mainbody">
+      <h3>Projects</h3>
+      <div id="project-list">
+        <a href="https://jhubbell89.github.io/Project1/" 
+          class="project-links"
+          >
+          <div class="project-card">
+            <div class="project-card-top dark-mode-body">
+            <img src="./pics/pjt1.png"                             class="projects-thumbnail">
+            </div>
+          <div class="project-card-bottom dark-mode-body">
+            <p>Line-Up 4</p>
+            <p>A website that allows users to play a game of Line-Up 4 4.</p>
+            <p>Built using JavaScript, HTML, CSS.</p>
+          </div>
+        </div>
+        </a>
+        <a href="https://adventure-app.herokuapp.com/" 
+          class="project-links"
+          >
+          <div class="project-card">
+            <div class="project-card-top dark-mode-body">
+            <img src="./pics/pjt2.png"                             class="projects-thumbnail">
+            </div>
+          <div class="project-card-bottom dark-mode-body">
+            <p>Adventure App</p>
+            <p>A website that enables users to plan trips while including the capability to track equipment and destinations.</p>                <p>Built using JavaScript, HTML, CSS, MongooseDB, Google OAuth</p>
+          </div>
+        </div>
+        </a>   
+        <a href="https://arcane-springs-21256.herokuapp.com/" 
+          class="project-links"
+          >
+          <div class="project-card">
+            <div class="project-card-top dark-mode-body">
+            <img src="./pics/pjt3.png"                             class="projects-thumbnail">
+            </div>
+          <div class="project-card-bottom dark-mode-body">
+            <p>Jokes Library</p>
+            <p>I built this app so I can input jokes into it and maintain the collection by editing or deleting jokes from its database using a full MERN stack.
+</p>                <p>Built using JavaScript, HTML, CSS, MongooseDB, Express, React, Heroku, </p>
+          </div>
+        </div>
+        </a>       
+        <a href="https://gentle-brushlands-78744.herokuapp.com/"
+          class="project-links"
+          >
+          <div class="project-card">
+            <div class="project-card-top dark-mode-body">
+            <img src="./pics/pjt4.png"                             class="projects-thumbnail">
+            </div>
+          <div class="project-card-bottom dark-mode-body">
+            <p>Chore Tracker</p>
+            <p>We made this app to keep track of the various chores someone will have. It allows you to add supplies you will be using on the task.</p>
+            <p>Built using Python, HTML, CSS, JavaScript, PostGreSQL, Materialize</p>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div id="contact" class="mainbody">
+    <h3>Contact Me</h3>
+    <form class="" action="mailto:ewhs4jamesh@hotmail.com" enctype="text/plain" autocomplete="off">
+    <input id="sendmemail" type="submit" value="Send Me An Email">
+    </form>
+      <div>
+        <a href="https://www.linkedin.com/in/james-hubbell/"> 
+          <img src="./pics/LI-In-Bug.png" id="lilogo" class="logobase" >
+        </a>
+        <a href="https://github.com/jhubbell89"> 
+          <img src="./pics/GitHub_Logo.png" id="ghlogo" class="logobase">
+        </a>
+      </div>
+  </div>
+    <div id="resumepdf" class="mainbody">
+    <h3>Resume</h3>
+    <div>
+      <object data="./James-Hubbell's-Resume.pdf"
+        type="application/pdf" 
+        height="900"
+        width="70%"
+      >
+        <iframe src="./James-Hubbell's-Resume.pdf"
+        >
+        <p>This browser does not support PDF!</p>
+        </iframe>
+      </object>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
