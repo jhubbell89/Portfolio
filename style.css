@@ -3,32 +3,33 @@
   text-align: center;
 }
 
-h1,h2,h3,h4 {
-  margin:100px 0 100px 0;
+h1,
+h2,
+h3,
+h4 {
+  margin: 100px 0 100px 0;
 }
 
 body {
   background-color: #31323f;
   color: red;
-  font-family: 'Roboto', sans-serif; 
+  font-family: "Roboto", sans-serif;
 }
 
 .txtsz30px {
- font-size: 30px; 
+  font-size: 30px;
 }
 
 .txtsz20px {
- font-size: 20px; 
+  font-size: 20px;
 }
 
 a:visited {
-  color:white;
-  text-decoration: none;
+  color: Purple;
 }
 
 a:link {
-  color: white;
-  text-decoration: none;
+  color: Blue;
 }
 /*---------- Side Navbar ----------*/
 /* NAV general style */
@@ -59,33 +60,33 @@ a:link {
 /* NAV dark mode button */
 #darkmodebtn {
   top: 20px;
-  background-image: radial-gradient( black 10%, orange );
+  background-image: radial-gradient(black 10%, orange);
 }
 
 .dark-mode-body {
-  background-color:ghostwhite;
+  background-color: ghostwhite;
   color: black;
 }
 
 /* NAV buttons */
 #abouts {
   top: 80px;
-  background-image: radial-gradient( black 10%, green );
+  background-image: radial-gradient(black 10%, green);
 }
 
 #project {
   top: 140px;
-  background-image: radial-gradient( black 10%, red);
+  background-image: radial-gradient(black 10%, red);
 }
 
 #contacts {
   top: 200px;
-  background-image: radial-gradient( black 10%, blue);
+  background-image: radial-gradient(black 10%, blue);
 }
 
 #resumes {
   top: 260px;
-  background-image: radial-gradient( black 10%, yellow);
+  background-image: radial-gradient(black 10%, yellow);
 }
 
 /*---------- Body Main Sections ----------*/
@@ -105,15 +106,15 @@ a:link {
 }
 
 .logobase:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* About Me */
 #selfport {
   min-width: 100px;
   max-width: 200px;
-  width:50% ;
-   margin-top: 100px;
+  width: 50%;
+  margin-top: 100px;
 }
 
 /* Projects */
@@ -131,29 +132,29 @@ a:link {
   min-width: 100px;
   max-width: 350px;
   width: 60%;
-  margin:10px;
+  margin: 10px;
 }
 
 .project-card-top {
   border: 1px solid orangered;
   height: auto;
   width: 100%;
-  text-wrap:center;
+  text-wrap: center;
 }
 
 .project-card-bottom {
   border: 1px solid orangered;
   height: 150;
   width: 100%;
-  text-wrap:center;
+  text-wrap: center;
 }
 
 .projects-thumbnail {
- width: 100%;
+  width: 100%;
 }
 
 .projects-links {
-  text-wrap: center;
+  word-wrap: center;
   margin: auto;
 }
 
@@ -163,11 +164,9 @@ a:link {
   padding: 15px;
   width: 50%;
   min-width: 125px;
-  max-width: 600px
+  max-width: 600px;
 }
 
 .ghlogo {
   background-color: white;
 }
-
-/* Resume */
